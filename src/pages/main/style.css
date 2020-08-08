@@ -1,0 +1,48 @@
+
+.menu {
+    float: left;
+    width: 100%;
+    background-color: black;
+    height: 125px;
+    padding-top: 10px;
+}
+
+.menu a{
+    color: #696969;
+    font-size: 25px;
+}
+
+.menu ul {
+    background-color: black;
+    margin-top: 250px;
+    margin:0px;
+    list-style:none;
+    text-align: center;
+}
+
+
+.menu ul li { 
+    display: inline; 
+}
+
+
+.menu ul li a {
+    padding: 25px 45px;
+    display: inline-block;
+
+    /* visual do link */
+    color: 	#696969;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+
+}
+
+.map {
+    width: '200px'; 
+    height: '50px';
+}
