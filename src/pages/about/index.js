@@ -6,10 +6,8 @@ import logoBranca from '../../icons/logoBranca.png';
 export default function App() {
   return (
     <div className="menu">   
-     
         <ul>
         <img src={logoBranca} alt="some text" width='75' height='65' />
-
             <Link className="buttonMenu" to = "/">
                 <li><a>Home</a></li>
             </Link>
@@ -37,14 +35,8 @@ export default function App() {
                 totalmente mantido e criado por alunos da UFCG (Universidade Federal de Campina Grande) como forma de levar os 
                 conhecimentos adiquiridos na academia para a sociedade.
             </p>
-
-
-            
-
         </div>
     </div>
-    
-    
   );
 }
 
