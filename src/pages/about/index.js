@@ -3,8 +3,6 @@ import './style.css';
 import { Link, useHistory } from 'react-router-dom';
 import logoBranca from '../../icons/logoBranca.png';
 
-
-
 export default function App() {
   return (
     <div className="menu">   
@@ -19,8 +17,6 @@ export default function App() {
             <Link className="buttonMenu" to = "/onlineStores">
                 <li><a>Lojas virtuais</a></li>
             </Link>
-
-            
 
             <li><a href="#">Ongs</a></li>
             <li><a href="#">Cadastrar loja</a></li>
