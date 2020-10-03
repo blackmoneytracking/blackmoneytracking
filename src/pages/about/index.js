@@ -3,15 +3,11 @@ import './style.css';
 import { Link, useHistory } from 'react-router-dom';
 import logoBranca from '../../icons/logoBranca.png';
 
-
-
 export default function App() {
   return (
     <div className="menu">   
-     
         <ul>
         <img src={logoBranca} alt="some text" width='75' height='65' />
-
             <Link className="buttonMenu" to = "/">
                 <li><a>Home</a></li>
             </Link>
@@ -19,8 +15,6 @@ export default function App() {
             <Link className="buttonMenu" to = "/onlineStores">
                 <li><a>Lojas virtuais</a></li>
             </Link>
-
-            
 
             <li><a href="#">Ongs</a></li>
             <li><a href="#">Cadastrar loja</a></li>
@@ -41,14 +35,8 @@ export default function App() {
                 totalmente mantido e criado por alunos da UFCG (Universidade Federal de Campina Grande) como forma de levar os 
                 conhecimentos adiquiridos na academia para a sociedade.
             </p>
-
-
-            
-
         </div>
     </div>
-    
-    
   );
 }
 
