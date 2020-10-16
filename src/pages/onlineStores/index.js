@@ -21,7 +21,7 @@ export default function App() {
             </Link>
 
             <Link className="buttonMenu" to = "/ongs">
-                <li><a>Ongs</a></li>
+                <li><a>ONGs</a></li>
             </Link>
 
             <Link className="buttonMenu" to = "/register">
