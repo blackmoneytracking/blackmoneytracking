@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logoBranca from '../../icons/logoBranca.png';
 
 export default function App() {
@@ -16,7 +16,9 @@ export default function App() {
                 <li><a>Lojas virtuais</a></li>
             </Link>
 
-            <li><a href="#">Ongs</a></li>
+            <Link className="buttonMenu" to = "/ongs">
+                <li><a href="#">Ongs</a></li>
+            </Link>
             <li><a href="#">Cadastrar loja</a></li>
             <Link className="buttonMenu" to = "/about">
                 <li><a>Sobre</a></li>
