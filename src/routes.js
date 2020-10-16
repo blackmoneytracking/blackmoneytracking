@@ -7,6 +7,7 @@ import OnlineStores from './pages/onlineStores/index';
 import About from './pages/about/index';
 import Ongs from "./pages/Ongs/index";
 import Contact from "./pages/contact/index";
+import Register from "./pages/register/index";
 
 export default function Routes() {
     return (
@@ -17,6 +18,7 @@ export default function Routes() {
                 <Route path="/about" component={About} />
                 <Route path="/ongs" component={Ongs} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/register" component={Register} />
             </Switch>
         </BrowserRouter>
     );
