@@ -29,7 +29,9 @@ export default function App() {
             <Link className="buttonMenu" to = "/about">
                 <li><a>Sobre</a></li>
             </Link>
-            <li><a href="#">Contato</a></li>
+            <Link className="buttonMenu" to = "/contact">
+                <li><a>Contato</a></li>
+            </Link>
         </ul>
 
         <div className="lojas-virtuais">
