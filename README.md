@@ -7,3 +7,4 @@ Promote businesses created by black and brown people in order to strengthen the 
 ## Technologies:
 
 Built mainly with react.
+
