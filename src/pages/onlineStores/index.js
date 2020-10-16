@@ -20,8 +20,12 @@ export default function App() {
                 <li><a>Lojas virtuais</a></li>
             </Link>
 
-            <li><a href="#">Ongs</a></li>
+            <Link className="buttonMenu" to = "/ongs">
+                <li><a href="#">Ongs</a></li>
+            </Link>
+            
             <li><a href="#">Cadastrar loja</a></li>
+
             <Link className="buttonMenu" to = "/about">
                 <li><a>Sobre</a></li>
             </Link>
