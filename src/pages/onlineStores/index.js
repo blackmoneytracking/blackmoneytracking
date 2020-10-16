@@ -21,14 +21,17 @@ export default function App() {
             </Link>
 
             <Link className="buttonMenu" to = "/ongs">
-                <li><a href="#">Ongs</a></li>
+                <li><a>Ongs</a></li>
             </Link>
-            
-            <li><a href="#">Cadastrar loja</a></li>
+
+            <Link className="buttonMenu" to = "/register">
+                <li><a>Cadastrar loja</a></li>
+            </Link>
 
             <Link className="buttonMenu" to = "/about">
                 <li><a>Sobre</a></li>
             </Link>
+
             <Link className="buttonMenu" to = "/contact">
                 <li><a>Contato</a></li>
             </Link>

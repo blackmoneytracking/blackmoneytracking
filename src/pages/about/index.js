@@ -19,7 +19,9 @@ export default function App() {
             <Link className="buttonMenu" to = "/ongs">
                 <li><a href="#">Ongs</a></li>
             </Link>
-            <li><a href="#">Cadastrar loja</a></li>
+            <Link className="buttonMenu" to = "/register">
+                <li><a>Cadastrar loja</a></li>
+            </Link>
             <Link className="buttonMenu" to = "/about">
                 <li><a>Sobre</a></li>
             </Link>
