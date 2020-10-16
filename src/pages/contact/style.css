@@ -1,0 +1,15 @@
+.contact{
+    padding-top: 10px;
+    background-color: white;
+    height: vh;
+    width: vw;
+    text-align: center;
+}
+
+
+
+.contact p{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
