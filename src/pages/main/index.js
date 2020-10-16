@@ -1,9 +1,8 @@
 import React from 'react';
 import './style.css';
-import {GoogleMap, withScriptjs, withGoogleMap, Marker} from "react-google-maps";
+import {GoogleMap, withScriptjs, withGoogleMap} from "react-google-maps";
 import logoBranca from '../../icons/logoBranca.png';
-import { Link, useHistory } from 'react-router-dom';
-import api from '../../services/api';
+import { Link } from 'react-router-dom';
 
 function Map(){
     return (
