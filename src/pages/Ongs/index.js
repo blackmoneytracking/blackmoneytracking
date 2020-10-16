@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom';
 
 export default function Ongs(){
     return(
+
+        <div>
+            <h1>ONGs</h1>
+
         <div className="menu">   
         <ul>
         <img src={logoBranca} alt="some text" width='75' height='65' />
@@ -32,6 +36,7 @@ export default function Ongs(){
         </ul>
 
         <div className="ongs">
+
 
             <h1>Ongs:</h1>
             <p> 
