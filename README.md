@@ -22,4 +22,4 @@ yarn add axios
 ```
 yarn start
 ```
-
+Businesses must be registered by the user using a specific form.
